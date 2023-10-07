@@ -1,8 +1,14 @@
-import Sidebar from '../Sidebar';
+//Primary page
 import './index.scss';
+import Sidebar from '../Sidebar';
+
 
 const Layout = () =>{
-    return <><Sidebar/></>
+    return(
+        <>
+         <Sidebar/>
+        </>
+    );
 }
 
-export default Layout;
+export default Layout
