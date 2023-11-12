@@ -5,6 +5,7 @@ import './index.scss'
 import logo from '../../assets/imgs/logo.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelope, faHome, faUser } from '@fortawesome/free-solid-svg-icons'
+import { faLinkedin, faFacebook, faGithub} from '@fortawesome/free-brands-svg-icons'
 
 const Sidebar = () => 
  <div className='nav-bar'>
@@ -24,8 +25,36 @@ const Sidebar = () =>
         <NavLink exact="true" activeClassname="active" className="contact-link" to="/contact">
             <FontAwesomeIcon icon={faEnvelope} color="#4d4d4e"/>
         </NavLink>
+
         
     </nav>
+
+    <ul>
+        <li>
+            <a
+                target="_blank"
+                rel='noreferrer'
+                href='#linkedin'>
+                    <FontAwesomeIcon icon={faLinkedin} color='#4d4d4e'/>
+            </a>
+        </li>
+        <li>
+            <a
+                target="_blank"
+                rel='noreferrer'
+                href='#linkedin'>
+                    <FontAwesomeIcon icon={faFacebook} color='#4d4d4e'/>
+            </a>
+        </li>
+        <li>    
+            <a
+                target="_blank"
+                rel='noreferrer'
+                href='#linkedin'>
+                    <FontAwesomeIcon icon={faGithub} color='#4d4d4e'/>
+            </a>
+        </li>
+    </ul>
  </div> 
 
 export default Sidebar
