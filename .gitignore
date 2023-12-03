@@ -1,3 +1,5 @@
+
+
 # Logs
 logs
 *.log
@@ -22,3 +24,22 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Dependency directories
+
+.pnp/
+.pnp.js
+
+# Output directories
+build/
+*.log
+
+# IDE directories
+
+
+*.iml
+
+# Cache and build files
+.cache/
+public/sw.js
+public/workbox-*.js
