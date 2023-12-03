@@ -1,3 +1,3 @@
-## Banuka Dananjaya
-# Portfolio
+
+# Banuka Dananjaya - Portfolio
 
