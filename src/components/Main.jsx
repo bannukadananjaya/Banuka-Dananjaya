@@ -51,10 +51,10 @@ const Main = () => {
         </div>
         <div className="flex flex-1/3 flex-col m-auto max-w-[500px] w-full p-6">
           <h1 className=" sn:text-4xl text-4xl font-bold text-gray-600 p-4">Contact me!</h1>
-          <div className="flex flex-row p-2  "><FaMobile size={20} /><a href=""> <span className="ml-4">0765346469</span></a></div>
-          <div className="flex flex-row p-2 "><FaLinkedin size={20}/><a href="">  <span className="ml-4">Linkedin</span></a></div>
-          <div className="flex flex-row p-2 "><FaGithub size={20} /><a href=""> <span className="ml-4">GitHub</span></a></div>
-          <div className="flex flex-row p-2 "><FaEnvelope size={20}/><a href="">  <span className="ml-4">banukasubasinghe13@gmail.com</span></a></div>
+          <div className="flex flex-row p-2  "><FaMobile size={20} /><a href="#"> <span className="ml-4">0765346469</span></a></div>
+          <div className="flex flex-row p-2 "><FaLinkedin size={20}/><a href="www.linkedin.com/in/bannukadananjaya">  <span className="ml-4">Linkedin</span></a></div>
+          <div className="flex flex-row p-2 "><FaGithub size={20} /><a href="https://github.com/bannukadananjaya"> <span className="ml-4">GitHub</span></a></div>
+          <div className="flex flex-row p-2 "><FaEnvelope size={20}/><a href="banukasubasinghe13@gmail.com">  <span className="ml-4">banukasubasinghe13@gmail.com</span></a></div>
         </div>
       </div>
     </div>
