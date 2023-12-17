@@ -1,12 +1,8 @@
 //import React from 'react'
 import { TypeAnimation } from "react-type-animation";
-import {
-  FaTwitter,
-  FaFacebookF,
-  FaInstagram,
-  FaLinkedin,
-} from "react-icons/fa";
-import image from "../assets/image.jpg";
+import { FaEnvelope, FaGithub, FaMobile, FaLinkedin } from "react-icons/fa";
+import image from "../assets/coverImg.jpg";
+import profileImg from "../assets/profileImg.jpg";
 
 const Main = () => {
   return (
@@ -16,9 +12,18 @@ const Main = () => {
         src={image}
         alt="#image"
       />
-      <div className="w-full h-full absolute top-0 left-0 bg-white/50">
-        <div className="max-w-[700px] h-full w-full flex flex-col  m-auto justify-center items-center lg:items-start">
-          <h1 className="sn:text-5xl text-4xl font-bold text-gray-800">I'm Banuka Dananjaya</h1>
+      <div className="w-full h-full absolute top-0 left-0 bg-white/50 flex flex-col md:flex-row items-center pl-20 ">
+        <div className="flex flex-1/3 ml-[100px]">
+          <img
+            src={profileImg}
+            alt="profile Image"
+            className="aspect-square rounded-full max-w-[300px] m-auto  "
+          />
+        </div>
+        <div className="flex flex-1/3 flex-col  m-auto justify-center items-center lg:items-start">
+          <h1 className="sn:text-5xl text-4xl font-bold text-gray-800">
+            I'm Banuka Dananjaya
+          </h1>
           <h2 className="flex sn:text-3xl text-2xl pt-4 text-gray-800">
             I'm a
             <TypeAnimation
@@ -43,12 +48,13 @@ const Main = () => {
               repeat={Infinity}
             />
           </h2>
-          <div className="flex justify-between pt-6 max-w-[200px] w-full">
-            <FaTwitter size={20} />
-            <FaFacebookF size={20}/>
-            <FaInstagram size={20}/>
-            <FaLinkedin size={20}/>
-          </div>
+        </div>
+        <div className="flex flex-1/3 flex-col m-auto max-w-[500px] w-full p-6">
+          <h1 className=" sn:text-4xl text-4xl font-bold text-gray-600 p-4">Contact me!</h1>
+          <div className="flex flex-row p-2  "><FaMobile size={20} /><a href=""> <span className="ml-4">0765346469</span></a></div>
+          <div className="flex flex-row p-2 "><FaLinkedin size={20}/><a href="">  <span className="ml-4">Linkedin</span></a></div>
+          <div className="flex flex-row p-2 "><FaGithub size={20} /><a href=""> <span className="ml-4">GitHub</span></a></div>
+          <div className="flex flex-row p-2 "><FaEnvelope size={20}/><a href="">  <span className="ml-4">banukasubasinghe13@gmail.com</span></a></div>
         </div>
       </div>
     </div>

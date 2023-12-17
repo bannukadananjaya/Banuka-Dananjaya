@@ -1,14 +1,18 @@
 //import React from 'react'
 
-const ProjectItem = ({img,title}) => {
+const ProjectItem = ({image,title,details,myRole,techStack,link}) => {
   return (
-    <div className="relative flex items-center justify-center h-auto w-full shadow-xl shadow-gray-400 rounded-xl group hover:bg-gradient-to-r from-gray-200 to-[#001b5e]">
-        <img src={img} alt="/" className="rounded-xl group-hover:opacity-10" />
-        <div className="hidden group-hover:block absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]">
-            <h3 className="text-2xl font-bold text-white tracking0-wider text-center ">{title}</h3>
-            <p className="pb-2 pt-2 text-white text-center">React JS</p>
-            <a href="/">
-                <p className="text-center p-2 rounded-md bg-white text-gray-700 ont-bold cursor-pointer text-lg">Read More</p>
+    <div className="flex h-auto w-full shadow-xl shadow-gray-200 rounded-xl">
+        <div className="flex-1/2 w-[500px]">
+          <img src={`./projects/${image}`} alt="/" className="rounded-xl group-hover:opacity-10 w-full"/>
+        </div>
+        <div className="flex flex-1/2 max-w-[500px] flex-col ml-4">
+            <h3 className="text-3xl font-bold text-[#001b5e] ">{title}</h3>
+            <p className="pb-2 pt-2 text-stone-800">{details}</p>
+            <p className="pb-2 pt-2 text-stone-600">My Role{myRole}</p>
+            <p className="pb-2 pt-2 text-skyblue">TechStack {techStack}</p>
+            <a href={link}>
+                <p className="px-1 rounded-md inline-block bg-stone-600  text-white font-bold cursor-pointer text-lg">Link</p>
             </a>
         </div>
         
