@@ -1,7 +1,5 @@
 {
 
-  "homepage": "https://bannukadananjaya.github.io/Banuka-Dananjaya",
-
   "name": "react_vite_portfolio",
 
   "private": true,
@@ -11,9 +9,6 @@
   "type": "module",
 
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
-
     "dev": "vite",
 
     "build": "vite build",
