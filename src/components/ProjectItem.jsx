@@ -2,7 +2,7 @@
 
 const ProjectItem = ({image,title,details,myRole,techStack,link}) => {
   return (
-    <div className="flex h-auto w-full shadow-xl shadow-gray-200 rounded-xl">
+    <div className="flex flex-col md:flex-row h-auto w-full shadow-xl shadow-gray-200 rounded-xl">
         <div className="flex-1/2 w-[500px]">
           <img src={`./projects/${image}`} alt="/" className="rounded-xl group-hover:opacity-10 w-full"/>
         </div>
