@@ -9,9 +9,9 @@ const ProjectItem = ({image,title,details,myRole,techStack,link}) => {
         <div className="flex flex-1/2 max-w-[500px] flex-col ml-4">
             <h3 className="text-3xl font-bold text-[#001b5e] ">{title}</h3>
             <p className="pb-2 pt-2 text-stone-800">{details}</p>
-            <p className="pb-2 pt-2 text-stone-600">My Role{myRole}</p>
-            <p className="pb-2 pt-2 text-skyblue">TechStack {techStack}</p>
-            <a href={link}>
+            <p className="pb-2 pt-2 text-stone-600">My Role : {myRole}</p>
+            <p className="pb-2 pt-2 text-skyblue">TechStack : {techStack}</p>
+            <a href={link} target="_blank" rel="noopener noreferrer">
                 <p className="px-1 rounded-md inline-block bg-stone-600  text-white font-bold cursor-pointer text-lg">Link</p>
             </a>
         </div>
