@@ -38,7 +38,7 @@ const Projects = () => {
       link:'https://github.com/bannukadananjaya/hostelManagementSystem'
     },
     {
-      image:'MobileApp.jpg',
+      image:'#',
       title:'Library Management System',
       details:'Developed an automated web app for universities to enhance managing students, staff, and academic activities',
       myRole:'Full-Stack development/Quality Assurance',
@@ -87,7 +87,7 @@ const Projects = () => {
         Projects
       </h1>
       <p className="text-center py-8">
-      Discover my hands-on experiences and academic projects that have shaped my skills and passion for Software Engineering. Explore the practical applications and creative solutions I have developed during my educational journey
+      Discover my hands-on experiences and academic projects that have shaped my skills and passion for Software Engineering. Explore the practical applications and creative solutions I havve developed during my educational journey
       </p>
       
       <div className="grid sm:grid-cols-1 gap-12">
