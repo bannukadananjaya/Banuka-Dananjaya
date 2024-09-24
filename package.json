@@ -9,6 +9,7 @@
   "type": "module",
 
   "scripts": {
+
     "dev": "vite",
 
     "build": "vite build",
@@ -22,6 +23,8 @@
   "dependencies": {
 
     "react": "^18.2.0",
+
+    "react_vite_portfolio": "file:",
 
     "react-dom": "^18.2.0",
 

@@ -22,6 +22,14 @@ const Projects = () => {
       link:'https://github.com/bannukadananjaya/OnlineLibraryManagementSystem.git'
     },
     {
+      image:'LMS.png',
+      title:'Smart Home Edge Server for Home Automation',
+      details:'Developed a mobile app for remote monitoring and control of the home, with real-time updates and notifications. Integrated image processing using Python and OpenCV for secure door access based on facial recognition',
+      myRole:'Full-Stack development/Quality Assurance',
+      techStack:'React/ Javascript/ Bootstrap/ Nodejs/ MySql',
+      link:'https://github.com/bannukadananjaya/OnlineLibraryManagementSystem.git'
+    },
+    {
       image:'HMS.png',
       title:'Hostel Management System',
       details:'Developed an automated web app for universities to enhance managing students, staff, and academic activities',
@@ -30,11 +38,11 @@ const Projects = () => {
       link:'https://github.com/bannukadananjaya/hostelManagementSystem'
     },
     {
-      image:'LMS1.png',
+      image:'MobileApp.jpg',
       title:'Library Management System',
       details:'Developed an automated web app for universities to enhance managing students, staff, and academic activities',
       myRole:'Full-Stack development/Quality Assurance',
-      techStack:'HTML/ CSS/ PHP/ MySQL/ XAMPP',
+      techStack:'ReactNative/ Expo/ Python/ OpenCV/ MySQL',
       link:'https://github.com/bannukadananjaya/devhive2023.git'
     },
     {
